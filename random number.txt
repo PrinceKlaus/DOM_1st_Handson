@@ -1,0 +1,29 @@
+// Guess the Number Game :
+
+let inputValue = document.querySelector('input')
+let randomNumber = parseInt(Math.random() * 100 + 1);
+console.log(randomNumber);
+let chances = 100;
+function checkNumber(){
+    console.log(inputValue.value);
+    if(randomNumber > inputValue.value)
+    {
+      console.log('Your guess is low')
+      chances--
+      console.log(chances)
+    }
+
+    else if(randomNumber < inputValue.value)
+    {
+      console.log('Your guess is high')
+      chances--
+      console.log(chances) 
+    }
+
+    else
+    {
+        console.log('Your guess is Correct')
+        chances--
+        console.log(chances)
+    }
+}

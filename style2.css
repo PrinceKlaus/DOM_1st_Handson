@@ -1,0 +1,105 @@
+body{
+    background-color: purple;
+    box-sizing: border-box;
+}
+
+
+h1{
+    position: absolute;
+    left: 461px;
+    top: 78px;
+    font-family: 'Courier New', Courier, monospace;
+    color: deeppink;
+    font-style: italic;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+p{
+    position: absolute;
+    right: 294px;
+    top: 56px;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:hotpink;
+    font-style: italic;
+    font-weight: bolder; 
+}
+
+#chance{
+    color: whitesmoke;
+    position: absolute;
+    right: 366px;
+    top: 281px;
+
+}
+
+#score{
+    color:whitesmoke;
+    position: absolute;
+    right: 383px;
+    top: 344px;
+}
+
+img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 635px;
+    top: 131px;
+}
+
+#SG{
+    position: absolute;
+    right: 327px;
+    top: 220px;
+    font-size: 30px;
+}
+
+input{
+    height: 100px;
+    width: 350px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid aliceblue;
+    background-color: palevioletred;
+    position: relative;
+    left: 51px;
+    top: 302px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button{
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+    color: darkmagenta;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: plum;
+    border: 2px solid aliceblue;
+    position: relative;
+    right: 211px;
+    top: 398px;
+    cursor: pointer;
+}
+
+#PA{
+    height: 80px;
+    width: 180px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 5px solid aliceblue;
+    background-color: darkturquoise;
+    position: relative;
+    left: 24px;
+    top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+body{
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+#top{
+    position: relative;
+    left:200px;
+    text-decoration: underline;
+}
+
+.parent{
+    display: flex;
+    gap: 10px
+}
+
+.child{
+    height: 150px;
+    width: 150px;
+    color: black;
+    background-color: blue;
+    border: 2px solid black;
+}
+

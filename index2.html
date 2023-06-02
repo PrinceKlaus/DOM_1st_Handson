@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number game</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <h1>GUESS THE RANDOM NUMBER!!!</h1>
+    <p>(BETWEEN 1 TO 100)</p>
+    <p id="SG" class="guess">Start Guessing..!</p>
+    <img src="./question_mark.png">
+    <p id="chance" class="counts">💯 Chances: 100</p>
+    <p id="score" class="highscore">🥇 Highscore: 0</p>
+    <button class="again" onclick="playagain()" id="PA">PLAY AGAINN !</button>
+    <input type="number" id="name" placeholder="Enter a number">
+    <button onclick="checkNumber()">CLICK</button>
+    <script src="./index2.js"></script>
+</body>
+</html>
